@@ -1,6 +1,8 @@
 import React from 'react'
 import HeroImage from '../heroImage.png'
-import {BsArrowDown,BsArrowReturnRight} from 'react-icons/bs'
+import {HiArrowNarrowRight} from 'react-icons/hi'
+import { MdOutlineKeyboardArrowRight} from 'react-icons/md'
+
 
 
 const Home = () => {
@@ -10,25 +12,25 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             
             <div className="flex flex-col justify-center h-full">
-                <h2 className="text-4xl sm:text-7xl font-bold text-white ">
+                <h2 className="text-4xl sm:text-7xl font-bold text-white py-5">
                     I'm a Frontend Developer
                     </h2>
                
-               <div className=' rounded-2xl backdrop-blur-sm bg-white/30 ... '>
+              
 
-                <p className="text-gray-400 py-4 max-w-md m-2">
-                Hi I'm Shardul, a Frontend Web Developer who loves building webpages and Software products.
+                <p className="text-gray-300 py-4 max-w-md m-2">
+                Hi, I'm Shardul, a Frontend Web Developer who loves building webpages and Software products.
                  I'd love to combine my passion for learning and developing with my software development 
                  skills to continue building personalized products 
                 </p>
-               </div>
-                <div>
-                    <button>
+              
+                <div className='py-2'>
+                    <button className="group text-white w-fit px-6 py-2.5 my-2 flex item-center rounded-md
+                    bg-gradient-to-r from-cyan-500 to-blue-500 text-lg cursor-pointer ">
                         Portfolio 
                         <span className="group-hover:rotate-90 duration-300">
-                        <BsArrowReturnRight  size={25} className="ml-1"/>
-
-                        </span>
+                <MdOutlineKeyboardArrowRight size={23} className="ml-1 mt-1" />
+              </span>
                     </button>
                 </div>
             </div>
