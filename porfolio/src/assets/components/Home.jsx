@@ -8,18 +8,18 @@ import { MdOutlineKeyboardArrowRight} from 'react-icons/md'
 const Home = () => {
   return (
     <div name="home" 
-    className="h-screen w-full bg-gradient-to-b from-black to-gray-900 text-white">
+    className="h-screen w-full bg-gradient-to-t from-black to-gray-900 text-white">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white py-5">
-                    I'm a Frontend Developer
+                    I'm a Frontend & Web3 Developer
                     </h2>
                
               
 
                 <p className="text-gray-300 py-4 max-w-md m-2">
-                Hi, I'm Shardul, a Frontend Web Developer who loves building webpages and Software products.
+                Hi, I'm Shardul Vanage, a Frontend & Web3 Developer who loves building webpages and Software products.
                  I'd love to combine my passion for learning and developing with my software development 
                  skills to continue building personalized products 
                 </p>
