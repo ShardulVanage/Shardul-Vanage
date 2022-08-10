@@ -1,7 +1,8 @@
 import React from 'react'
 import HeroImage from '../heroImage.png'
-import {HiArrowNarrowRight} from 'react-icons/hi'
+
 import { MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import { Link } from 'react-scroll'
 
 
 
@@ -25,13 +26,14 @@ const Home = () => {
                 </p>
               
                 <div className='py-2'>
-                    <button className="group text-white w-fit px-6 py-2.5 my-2 flex item-center rounded-md
+                    <Link to='portfolio' smooth duration={500}
+                     className="group text-white w-fit px-6 py-2.5 my-2 flex item-center rounded-md
                     bg-gradient-to-r from-cyan-500 to-blue-500 text-lg cursor-pointer ">
                         Portfolio 
                         <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={23} className="ml-1 mt-1" />
               </span>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div>
