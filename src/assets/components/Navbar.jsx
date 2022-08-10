@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from 'react-scroll'
 
 
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -32,7 +33,9 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-16 px-4 text-white bg-black fixed drop-shadow-[0_35px_35px_#2020203c]">
       <div>
-        <h1 className="text-3xl font-signature ml-2">Shardul</h1>
+        <Link to="home" smooth duration={500}>
+        <h1 className="text-3xl font-signature ml-2 text-gray-300">Shardul</h1>
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
@@ -77,5 +80,7 @@ const NavBar = () => {
     </div>
   );
 };
+ export default NavBar;
 
-export default NavBar;
+
+
