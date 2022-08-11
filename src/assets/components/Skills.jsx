@@ -63,13 +63,13 @@ const Skills = () => {
 
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-t from-[#000000] to-gray-900 w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-pink-600 p-2 inline">
-            Experience
+            Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
