@@ -1,6 +1,9 @@
 
 import About from "./assets/components/About";
 import Contact from "./assets/components/Contact";
+import Footer from "./assets/components/Footer";
+
+
 import Home from "./assets/components/Home";
 import Navbar from "./assets/components/Navbar";
 import Portfolio from "./assets/components/Portfolio";
@@ -19,7 +22,7 @@ function App() {
 <Portfolio></Portfolio>
 <Skills></Skills>
 <Contact></Contact>
-
+<Footer/>
 <SocialLinks> </SocialLinks>
 </div>
   );
